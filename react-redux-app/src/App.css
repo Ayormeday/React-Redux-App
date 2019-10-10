@@ -20,3 +20,48 @@
 .App-link {
   color: #09d3ac;
 }
+
+* {
+  background-color:#dacfcf;
+}
+
+.search {
+  padding-top: 20px;
+  padding-left: 300px;
+
+}
+.search-button {
+  padding-left: 2px;
+  color:brown;
+  text-decoration: none;
+}
+
+.component {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 10px;
+
+}
+
+.component h1 {
+  font-size: 50px;
+  color: brown;
+}
+
+.pop-data {
+  padding: 20px 60px;
+  font-size: 30px;
+  color: brown;
+}
+
+.para {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+
