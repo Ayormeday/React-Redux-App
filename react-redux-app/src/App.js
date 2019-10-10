@@ -10,6 +10,7 @@ export default function App() {
   const monsterReducer = combineReducers({
     // the key is the real name for the slice of state
     count: reducers.countReducer,
+    population: reducers.populationReducer,
   });
   const store = createStore(
     monsterReducer,
