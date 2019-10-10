@@ -19,3 +19,18 @@ export function countReducer(count = initialValueCount, action) {
       return count;
   }
 }
+
+
+const initialPopulation = { population: [] };
+
+export function populationReducer (state = initialPopulation, action) {
+  switch (action.type) {
+    case types.DISPLAY_POPULATION:
+      return {
+        ...state,
+        population: action.payload
+      };
+      default: 
+      return state;
+  }
+}
