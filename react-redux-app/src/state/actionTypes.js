@@ -1,0 +1,2 @@
+export const SET_POPULATION = "SET_POPULATION";
+export const ON_SEARCH_CHANGE = "ON_SEARCH_CHANGE";
